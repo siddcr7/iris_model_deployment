@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: Ml-Project
+Version: 0.1
+Author: Siddharth
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: scikit-learn>=1.3.0
+Requires-Dist: streamlit>=1.28.0
+Requires-Dist: matplotlib>=3.7.2
+Requires-Dist: seaborn>=0.12.2
+Requires-Dist: joblib>=1.3.2
+Dynamic: author
+Dynamic: requires-dist
