@@ -10,3 +10,5 @@ src/logger.py
 src/model.py
 src/predict.py
 src/train.py
+tests/test_data_processing.py
+tests/test_model.py
