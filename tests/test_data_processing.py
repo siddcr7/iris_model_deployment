@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from src.data_processing import load_iris_data, preprocess_data, split_data, scale_features
+# from src.data_processing import load_iris_data, preprocess_data, split_data, scale_features
 
 def test_load_iris_data():
     # Test that the data is loaded correctly and has the expected columns
