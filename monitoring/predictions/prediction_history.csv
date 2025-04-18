@@ -1,0 +1,6 @@
+sepal length,sepal width,petal length,petal width,timestamp,predicted_species,prediction_confidence
+5.8,3.0,4.0,1.3,20250418_125952,versicolor,1.0
+5.8,3.9,4.0,1.3,20250418_130003,versicolor,0.94
+5.8,3.9,2.7,1.3,20250418_130004,versicolor,0.94
+6.6,3.9,2.7,1.3,20250418_130007,versicolor,0.95
+6.6,3.9,2.7,0.5,20250418_130008,setosa,0.53

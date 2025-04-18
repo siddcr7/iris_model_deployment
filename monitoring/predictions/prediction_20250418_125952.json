@@ -1,0 +1,16 @@
+{
+  "timestamp": "20250418_125952",
+  "features": {
+    "sepal length": 5.8,
+    "sepal width": 3.0,
+    "petal length": 4.0,
+    "petal width": 1.3
+  },
+  "predicted_class": 1,
+  "predicted_species": "versicolor",
+  "probabilities": {
+    "setosa": 0.0,
+    "versicolor": 1.0,
+    "virginica": 0.0
+  }
+}

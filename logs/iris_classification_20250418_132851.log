@@ -1,0 +1,12 @@
+2025-04-18 13:28:51,019 - root - INFO - Logger initialized. Log file: logs\iris_classification_20250418_132851.log
+2025-04-18 13:28:52,362 - app - INFO - Starting Iris Flower Classification App
+2025-04-18 13:28:52,885 - app - INFO - Using existing model
+2025-04-18 13:28:52,885 - predict - INFO - Loading model artifacts
+2025-04-18 13:28:55,711 - app - INFO - Starting Iris Flower Classification App
+2025-04-18 13:28:55,716 - app - INFO - Using existing model
+2025-04-18 13:28:55,716 - predict - INFO - Loading model artifacts
+2025-04-18 13:28:55,746 - app - INFO - Making prediction with input: {'sepal length': 5.8, 'sepal width': 3.0, 'petal length': 4.0, 'petal width': 1.3}
+2025-04-18 13:28:55,753 - predict - INFO - Making prediction with input data: {'sepal length': 5.8, 'sepal width': 3.0, 'petal length': 4.0, 'petal width': 1.3}
+2025-04-18 13:28:55,755 - predict - INFO - Loading model artifacts
+2025-04-18 13:28:55,954 - predict - INFO - Prediction result: versicolor (class 1)
+2025-04-18 13:28:55,976 - app - INFO - Prediction result: versicolor (class 1)
