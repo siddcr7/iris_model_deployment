@@ -12,3 +12,4 @@ src/predict.py
 src/train.py
 tests/test_data_processing.py
 tests/test_model.py
+tests/test_predict.py

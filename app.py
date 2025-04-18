@@ -9,11 +9,9 @@ import os
 import pickle
 import matplotlib.pyplot as plt
 import sys
-
-# Add the parent directory to the path so modules can be imported correctly
-import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent))
+
 
 # Import the required modules from the src package
 from src.predict import make_prediction, load_artifacts
