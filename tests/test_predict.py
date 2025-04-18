@@ -1,4 +1,6 @@
 import pytest
+import sys
+sys.path.append(str(Path(__file__).parent))
 from src.predict import make_prediction, load_artifacts
 
 def test_make_prediction():

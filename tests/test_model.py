@@ -1,4 +1,6 @@
 import pytest
+import sys
+sys.path.append(str(Path(__file__).parent))
 from src.model import *
 from src.data_processing import *
 import os
