@@ -1,5 +1,7 @@
 import pytest
 import pandas as pd
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent))
 from src.data_processing import load_iris_data, preprocess_data, split_data, scale_features
 
 def test_load_iris_data():
