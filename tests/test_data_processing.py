@@ -2,7 +2,9 @@ import pytest
 import pandas as pd
 from pathlib import Path
 import sys
-sys.path.append(str(Path(__file__).parent))
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 from src.data_processing import load_iris_data, preprocess_data, split_data, scale_features
 
 def test_load_iris_data():

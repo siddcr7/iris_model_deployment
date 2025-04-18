@@ -1,6 +1,8 @@
 import pytest
 import sys
-sys.path.append(str(Path(__file__).parent))
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 from src.predict import make_prediction, load_artifacts
 
 def test_make_prediction():
